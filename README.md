@@ -21,7 +21,7 @@
 
 # 기능 설명
 ## 1. 얼굴 검출기능 ##  
-<img src="/img/얼굴검출기능.png" width="600" height="300">  
+<img src="/img/얼굴검출기능.png" width="400" height="300">  
 
 - Jetson Nano에 연결된 USB카메라로부터 영상을 수신합니다.  
 - Ubuntu 18.04 LTS(Bionic)의 python 스크립트에서 OpenCV 라이브러리와 Haar Cascades 알고리즘을 이용해 카메라 영상에서 사람의 얼굴을 검출합니다.  
