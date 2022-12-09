@@ -7,12 +7,14 @@ NVIDIA의 Jetson Nano 보드와 Arduino Uno 보드를 이용하였고, ROS Melod
 
 Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성하였고, Jetson Nano가 publisher 노드, Arduino Uno가 subscriber 노드로 동작합니다.  
 
-### 
+---
+<br></br>
 
 # 블럭도
 <img src="/img/블럭도.png" width="600" height="400">  
 
-### 
+---
+<br></br>
 
 # 기능 설명
 ## 1. 얼굴 검출기능 ##  
@@ -57,7 +59,8 @@ ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서
 
 - 위의 사진과 같이 메카넘 휠을 이용해 로봇을 원하는 방향으로 제어할 수 있습니다.   
 
-### 
+---
+<br></br>
 
 # 동영상 링크(이미지를 클릭하면 유튜브 영상으로 이동합니다) #
 [![Video Label](https://github.com/emperor5519/tracking-robot/blob/main/img/%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/RsMF7-i-Hyg)
