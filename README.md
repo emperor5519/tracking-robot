@@ -47,19 +47,19 @@ ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서
 ### 
 
 ## 3. 모터 제어기능 ##  
-<img src="/img/전체사진1.png" width="400" height="400">
-<img src="/img/전체사진2.png" width="400" height="400">  
+<img src="/img/전체사진1.jpg" width="400" height="400">
+<img src="/img/전체사진2.jpg" width="400" height="400">  
 
 - ROS-Serial통신으로 연결된 Arduino Uno에서 subscribe한 문자열 값에 따라 4개의 DC모터의 방향이 제어됩니다.  
 
 ### 
 
-<img src="/img/내부사진.png" width="400" height="300">  
+<img src="/img/내부사진.jpg" width="400" height="300">  
 
 - 모터 드라이버(L298N) 2개를 사용하였고, 모터 드라이버 1개당 DC모터 2개와 배터리(1.5V 병렬연결)가 연결되어 모터의 방향이 제어됩니다.  
 ### 
 
-<img src="/img/메카넘휠원리.png" width="300" height="450">  
+<img src="/img/메카넘휠원리.jpg" width="300" height="450">  
 
 - 위의 사진과 같이 모터의 방향이 제어되며 메카넘 휠을 이용해 원하는 방향으로 로봇이 제어됩니다.  
 
