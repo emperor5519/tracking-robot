@@ -47,8 +47,7 @@ ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서
 ### 
 
 ## 3. 모터 제어기능 ##  
-<img src="/img/전체사진1.jpg" width="400" height="500">
-<img src="/img/전체사진2.jpg" width="500" height="400">  
+<img src="/img/전체사진1.jpg" width="400" height="500"> <img src="/img/전체사진2.jpg" width="500" height="400">  
 
 - ROS-Serial통신으로 연결된 Arduino Uno에서 subscribe한 문자열 값에 따라 4개의 DC모터의 방향이 제어됩니다.  
 
