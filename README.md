@@ -1,11 +1,11 @@
 # tracking-robot
-- 사람의 얼굴을 인식하고, 카메라 화면의 중앙에 얼굴이 위치하도록 지속적으로 추적하는 로봇으로 1인 촬영욜 장비 입니다.  
+사람의 얼굴을 인식하고, 카메라 화면의 중앙에 얼굴이 위치하도록 지속적으로 추적하는 로봇으로 1인 촬영욜 장비 입니다.  
 
-- 메카넘 휠을 사용한 4륜 로봇으로 원하는 방향으로 원활하게 이동이 가능하고, 짐벌에 핸드폰을 거치하여 촬영할 수 있도록 하였습니다.  
+메카넘 휠을 사용한 4륜 로봇으로 원하는 방향으로 원활하게 이동이 가능하고, 짐벌에 핸드폰을 거치하여 촬영할 수 있도록 하였습니다.  
 
-- NVIDIA의 Jetson Nano 보드와 Arduino Uno 보드를 이용하였고, ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
+NVIDIA의 Jetson Nano 보드와 Arduino Uno 보드를 이용하였고, ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
 
-- Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성하였고, Jetson Nano가 publisher 노드, Arduino Uno가 subscriber 노드로 동작합니다.  
+Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성하였고, Jetson Nano가 publisher 노드, Arduino Uno가 subscriber 노드로 동작합니다.  
 
 ### 
 
@@ -30,7 +30,7 @@
 ### 
 
 ## 2. ROS 통신기능 ##  
-- ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
+ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
 
 ### 
 
