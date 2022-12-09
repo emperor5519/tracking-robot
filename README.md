@@ -12,11 +12,6 @@ Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성�
 # 블럭도
 <img src="/img/블럭도.png" width="600" height="400">  
 
-- Jetson Nano에 연결된 USB카메라로부터 영상을 수신합니다.
-- Ubuntu 18.04(Bionic)의 python스크립트에서 OpenCV 라이브러리와 Haar Cascades알고리즘을 이용해 카메라 영상에서 사람의 얼굴을 인식합니다.
-- 인식된 얼굴의 중심 좌표의 위치에 따라 로봇이 움직여야 할 방향을 계산하고, 계산된 값에 따라 앞, 뒤, 좌, 우, 회전 등의 문자열을 설정된 topic으로 publish합니다.
-- ROS-Serial통신으로 연결된 Arduino Uno에서 설정된 topic으로 문자열 값을 subscribe하여 4개의 DC모터의 방향이 제어됩니다.
-
 ### 
 
 # 기능 설명
@@ -36,7 +31,7 @@ ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서
 
 <img src="/img/ROS_pub.png" width="400" height="300">  
 
-- python 스크립트에서 계산된 값에 따라 "left", "right" 등의 문자열을, topic을 설정하고 publish합니다.  
+- python 스크립트에서 계산된 값에 따라 "left", "right" 등의 문자열을 topic을 설정하고 publish합니다.  
 
 ### 
 
