@@ -10,7 +10,7 @@
 ### 
 
 # 블럭도
-<img src="/img/블럭도.png" width="400" height="300">  
+<img src="/img/블럭도.png" width="600" height="400">  
 
 - Jetson Nano에 연결된 USB카메라로부터 영상을 수신합니다.
 - Ubuntu 18.04(Bionic)의 python스크립트에서 OpenCV 라이브러리와 Haar Cascades알고리즘을 이용해 카메라 영상에서 사람의 얼굴을 인식합니다.
