@@ -5,12 +5,12 @@
 
 - NVIDIA의 Jetson Nano 보드와 Arduino Uno 보드를 이용하였고, ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
 
-- Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성하였고, Jetson Nano가 publisher, Arduino Uno가 subscriber로 동작합니다.  
+- Jetson Nano에서는 python, Arduino Uno에서는 C 언어를 이용해 작성하였고, Jetson Nano가 publisher 노드, Arduino Uno가 subscriber 노드로 동작합니다.  
 
 ### 
 
 # 블럭도
-<img src="/img/손가락끝검출.png" width="400" height="300">  
+<img src="/img/블럭도.png" width="400" height="300">  
 
 - Jetson Nano에 연결된 USB카메라로부터 영상을 수신합니다.
 - Ubuntu 18.04(Bionic)의 python스크립트에서 OpenCV 라이브러리와 Haar Cascades알고리즘을 이용해 카메라 영상에서 사람의 얼굴을 인식합니다.
@@ -21,7 +21,7 @@
 
 # 기능 설명
 ## 1. 얼굴 검출기능 ##  
-<img src="/img/영상변환기능.png" width="600" height="300">  
+<img src="/img/얼굴검출기능.png" width="600" height="300">  
 
 - Jetson Nano에 연결된 USB카메라로부터 영상을 수신합니다.  
 - Ubuntu 18.04 LTS(Bionic)의 python 스크립트에서 OpenCV 라이브러리와 Haar Cascades 알고리즘을 이용해 카메라 영상에서 사람의 얼굴을 검출합니다.  
@@ -30,16 +30,28 @@
 ### 
 
 ## 2. ROS 통신기능 ##  
-<img src="/img/영상이진화2.png" width="600" height="300">  
+<img src="/img/연결사진.png" width="600" height="300">  
 
 - ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
+- ROS master 노드
+
+### 
+
+<img src="/img/ROS_pub.png" width="600" height="300">  
+
 - python 스크립트에서 계산된 값에 따라 "left", "right" 등의 문자열을, topic을 설정하고 publish합니다.  
+
+### 
+
+<img src="/img/ROS_sub.png" width="600" height="300">  
+
 - 설정된 topic으로 Arduino Uno에서 문자열 값을 subscribe합니다.  
 
 ### 
 
 ## 3. 모터 제어기능 ##  
-<img src="/img/전체사진.png" width="600" height="300">  
+<img src="/img/전체사진1.png" width="600" height="300">  
+<img src="/img/전체사진2.png" width="600" height="300">  
 
 - ROS-Serial통신으로 연결된 Arduino Uno에서 subscribe한 문자열 값에 따라 4개의 DC모터의 방향이 제어됩니다.  
 
