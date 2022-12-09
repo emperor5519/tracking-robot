@@ -30,28 +30,25 @@
 ### 
 
 ## 2. ROS 통신기능 ##  
-<img src="/img/연결사진.png" width="600" height="300">  
-
 - ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서 두 보드간 통신이 가능하도록 ROS-Serial통신을 하였습니다.  
-- ROS master 노드
 
 ### 
 
-<img src="/img/ROS_pub.png" width="600" height="300">  
+<img src="/img/ROS_pub.png" width="400" height="300">  
 
 - python 스크립트에서 계산된 값에 따라 "left", "right" 등의 문자열을, topic을 설정하고 publish합니다.  
 
 ### 
 
-<img src="/img/ROS_sub.png" width="600" height="300">  
+<img src="/img/ROS_sub.png" width="400" height="300">  
 
 - 설정된 topic으로 Arduino Uno에서 문자열 값을 subscribe합니다.  
 
 ### 
 
 ## 3. 모터 제어기능 ##  
-<img src="/img/전체사진1.png" width="600" height="300">  
-<img src="/img/전체사진2.png" width="600" height="300">  
+<img src="/img/전체사진1.png" width="400" height="400">
+<img src="/img/전체사진2.png" width="400" height="400">  
 
 - ROS-Serial통신으로 연결된 Arduino Uno에서 subscribe한 문자열 값에 따라 4개의 DC모터의 방향이 제어됩니다.  
 
@@ -62,7 +59,7 @@
 - 모터 드라이버(L298N) 2개를 사용하였고, 모터 드라이버 1개당 DC모터 2개와 배터리(1.5V 병렬연결)가 연결되어 모터의 방향이 제어됩니다.  
 ### 
 
-<img src="/img/메카넘휠원리.png" width="400" height="300">  
+<img src="/img/메카넘휠원리.png" width="300" height="450">  
 
 - 위의 사진과 같이 모터의 방향이 제어되며 메카넘 휠을 이용해 원하는 방향으로 로봇이 제어됩니다.  
 
