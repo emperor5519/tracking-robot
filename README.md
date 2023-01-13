@@ -64,5 +64,3 @@ ROS Melodic을 사용하였으며, 인터넷이 연결되지 않은 환경에서
 
 # 동영상 링크(이미지를 클릭하면 유튜브 영상으로 이동합니다) #
 [![Video Label](https://github.com/emperor5519/tracking-robot/blob/main/img/%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://youtu.be/RsMF7-i-Hyg)
-
-사람인 이력서에도 동영상이 첨부되어 있습니다  
